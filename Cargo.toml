@@ -1,0 +1,17 @@
+[package]
+name = "advent_of_code"
+version = "0.1.0"
+authors = ["Kent Delante <kdeleteme@tutanota.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[lib]
+name = "advent_of_code"
+
+[[bin]]
+name = "day_one"
+path = "src/day_one/day_one.rs"
