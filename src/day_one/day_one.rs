@@ -75,7 +75,7 @@ fn part_two(nums: &Vec<i32>) {
     );
 }
 
-use advent_of_code::inputs;
+use my_advent_of_code::inputs;
 
 fn main() {
     let path = String::from("inputs/day_one/input.txt");
