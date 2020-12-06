@@ -74,7 +74,7 @@ fn part_two(rows: &Vec<String>) {
 
 fn main() {
     let path = String::from("inputs/day_two/input.txt");
-    let rows: Vec<String> = inputs::provide_input(path)
+    let rows: Vec<String> = inputs::parse_input(path)
         .unwrap()
         .trim()
         .split('\n')

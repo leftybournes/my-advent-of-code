@@ -79,7 +79,7 @@ use my_advent_of_code::inputs;
 
 fn main() {
     let path = String::from("inputs/day_one/input.txt");
-    let mut nums: Vec<i32> = inputs::provide_input(path)
+    let mut nums: Vec<i32> = inputs::parse_input(path)
         .unwrap()
         .split_whitespace()
         .map(|num| num.parse::<i32>().unwrap())
